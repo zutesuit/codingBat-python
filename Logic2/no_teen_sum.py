@@ -18,7 +18,7 @@ def no_teen_sum(a, b, c):
   return a + b + c
     
 
-# this ones neater:
+# this ones neater a more defintion-strict solution:
 def fix_teen(n):
     if (13 <= n <= 14) or (17 <= n <= 19):
         return 0
